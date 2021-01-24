@@ -86,7 +86,7 @@ class CampusCard:
             password_list.append(des_3.des_3_encrypt(i, self.user_info['appKey'], '66666666'))
         login_args = {
             'appCode': 'M002',
-            'deviceId': self.user_info['863064219723915'],
+            'deviceId': '863064219723915',
             'netWork': 'wifi',
             'password': password_list,
             'qudao': 'guanwang',
